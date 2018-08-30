@@ -207,6 +207,10 @@ header {
 /* MEALS */
 /*--------------------------------------------------------*/
 
+.section-meal {
+    padding: 0;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;
