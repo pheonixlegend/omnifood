@@ -11,13 +11,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #ffffff;
     color: #555;
     font-family: 'Lato', 'Ariel', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -335,7 +337,6 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
-
 }
 
 .btn-app:link,
