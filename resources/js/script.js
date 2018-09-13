@@ -116,6 +116,6 @@ $(document).ready(function() {
 
         var attr = $('.js--nav-icon ion-icon').attr('name');
 
-
+});
         });
 
