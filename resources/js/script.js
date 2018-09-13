@@ -116,6 +116,19 @@ $(document).ready(function() {
 
         var attr = $('.js--nav-icon ion-icon').attr('name');
 
+        if ( $('.js--nav-icon ion-icon').attr('name') == 'menu' ) {
+    // do this
+            $(".js--nav-icon ion-icon").attr("name", "close");
+    } else {
+        // do that
+        if ( $('.js--nav-icon ion-icon').attr('name') == 'close' ) {
+    // do this
+            $(".js--nav-icon ion-icon").attr("name", "menu");
+        }
+    }
+
+
+    });
+
 });
-        });
 
