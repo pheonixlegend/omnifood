@@ -104,4 +104,18 @@ $(document).ready(function() {
     }, {
         offset: '28%'
     });
-});
+
+
+    /* Mobile Nav */
+    $('.js--nav-icon').click(function() {
+       var nav = $('.js--main-nav')
+       var icon = $('.js--nav-icon ion-icon')
+
+      /* <ion-icon name="close"></ion-icon> */
+       nav.slideToggle(200)
+
+        var attr = $('.js--nav-icon ion-icon').attr('name');
+
+
+        });
+
